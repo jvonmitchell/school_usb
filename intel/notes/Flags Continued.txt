@@ -1,0 +1,4 @@
+Trap flag will cause a program to pause after the execution of a program.
+
+Auxiliary Carry Flag, flag will be turned on if there is a carry from AL to AH.  Useful in some ascii opperations.
+

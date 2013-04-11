@@ -1,0 +1,19 @@
+http://ic.galegroup.com/ic/ovic/ViewpointsDetailsPage/ViewpointsDetailsWindow?failOverType=&query=&prodId=OVIC&windowstate=normal&contentModules=&mode=view&displayGroupName=Viewpoints&limiter=&currPage=&disableHighlighting=true&displayGroups=&sortBy=&source=&search_within_results=&action=e&catId=&activityType=&scanId=&documentId=GALE|EJ3010796214
+http://ic.galegroup.com/ic/ovic/ViewpointsDetailsPage/ViewpointsDetailsWindow?failOverType=&query=&prodId=OVIC&windowstate=normal&contentModules=&mode=view&displayGroupName=Viewpoints&limiter=&currPage=&disableHighlighting=true&displayGroups=&sortBy=&source=&search_within_results=&action=e&catId=&activityType=&scanId=&documentId=GALE|EJ3010774224
+http://ic.galegroup.com/ic/ovic/ViewpointsDetailsPage/ViewpointsDetailsWindow?failOverType=&query=&prodId=OVIC&windowstate=normal&contentModules=&mode=view&displayGroupName=Viewpoints&limiter=&currPage=&disableHighlighting=true&displayGroups=&sortBy=&source=&search_within_results=&action=e&catId=&activityType=&scanId=&documentId=GALE|EJ3010770216
+http://ic.galegroup.com/ic/ovic/ViewpointsDetailsPage/ViewpointsDetailsWindow?failOverType=&query=&prodId=OVIC&windowstate=normal&contentModules=&mode=view&displayGroupName=Viewpoints&limiter=&currPage=&disableHighlighting=true&displayGroups=&sortBy=&source=&search_within_results=&action=e&catId=&activityType=&scanId=&documentId=GALE|EJ3010770205
+http://ic.galegroup.com/ic/ovic/ViewpointsDetailsPage/ViewpointsDetailsWindow?failOverType=&query=&prodId=OVIC&windowstate=normal&contentModules=&mode=view&displayGroupName=Viewpoints&limiter=&currPage=&disableHighlighting=true&displayGroups=&sortBy=&source=&search_within_results=&action=e&catId=&activityType=&scanId=&documentId=GALE|EJ3010661231
+
+http://web.ebscohost.com/ehost/detail?sid=94e2be87-9953-4a3c-a170-bb21b101d016%40sessionmgr114&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=82540144
+http://web.ebscohost.com/ehost/detail?sid=5acbf32f-2622-4954-8d50-f9c4499b0383%40sessionmgr112&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=67014103
+http://web.ebscohost.com/ehost/detail?sid=e0f3f2ba-49d7-4d1e-9d94-182ec532be25%40sessionmgr104&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=85856720
+http://web.ebscohost.com/ehost/detail?sid=25649af0-a74d-4681-9d8a-51618f9f593f%40sessionmgr113&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=59330053
+http://web.ebscohost.com/ehost/detail?sid=459b7787-839a-498c-9ec2-6e0076da8523%40sessionmgr110&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=84499443
+http://web.ebscohost.com/ehost/detail?sid=6abd37d4-58b0-4a21-ae00-d1f850c4cfb2%40sessionmgr198&vid=1&hid=114&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=a9h&AN=57378571
+
+
+Here you can get statists.  Code a spider to get all schools in Virginia.
+http://www.collegeresults.org/search_basic.aspx
+
+4 year graduation rate is.
+$('tblSuccess').firstElementChild.children[1].firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.children[1].children[1].innerHTML

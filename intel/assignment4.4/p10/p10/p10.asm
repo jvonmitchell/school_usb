@@ -1,15 +1,13 @@
-.686p
-.model flat,stdcall
-.stack 2048
+
 
 include irvine32.inc
 .data
-msg1	byte 0ah,0dh,"enter a string: ", 0
-msg2	byte 0ah,0dh,"you just entered: ",0
+msg1	byte 0ah,0dh,"enter a roman numeral: ", 0
+msg2	byte 0ah,0dh,"In aribic numerals that is: ",0
 input	byte 30 dup (' ')
 outbuff	byte 30 dup (' ')
 input2 dword 30 dup (?)
-strlength dword ?
+ourlength dword ?
 
 ExitProcess	proto, exitcode:dword
 
@@ -27,7 +25,7 @@ call	ReadString
 
 
 mov ecx, eax
-mov strlength, ecx
+mov ourlength, ecx
 
 mov edi,offset input
 mov esi,offset input2
@@ -56,7 +54,7 @@ transitionloop:
 	add esi, type input2
 loop transitionloop
 
-mov ecx, strlength
+mov ecx, ourlength
 sub esi,type input2
 mov eax,[esi]
 mov ebx,eax
@@ -73,6 +71,13 @@ additionloop:
 	.endif
 	sub esi,type input2
 loop additionloop
+
+mov		edx,offset msg2
+call	WriteString
+
+mov		edx,eax
+call	WriteInt
+
 
 mov		edx,offset input		
 mov		ecx,1
